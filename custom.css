@@ -1,0 +1,74 @@
+/* === General Link Styling === */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #005fa3;
+  text-decoration: underline;
+}
+
+/* === Navbar Link Overrides === */
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffcc00;
+}
+
+/* === Section Background Overrides === */
+#about,
+#hardware {
+  background-color: #f8f9fa; /* Soft light grey */
+}
+
+#how-to-fly,
+#software {
+  background-color: #ffffff;
+}
+
+/* === Section Headings === */
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+section h4 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+/* === Paragraph and List Styling === */
+section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+section ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* === Responsive Video Embed === */
+.ratio iframe {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* === Footer Styling === */
+footer {
+  background-color: #212529;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
