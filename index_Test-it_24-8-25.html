@@ -51,6 +51,20 @@
       width: 100%;
     }
 
+    .carousel-overlay {
+      position: absolute;
+      top: 70%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      z-index: 10;
+      max-width: 90%;
+      color: white;
+      text-align: center;
+    }
+
     .masthead-image {
       width: 100%;
       margin-top: 1.5rem;
@@ -180,7 +194,10 @@
             <div class="carousel-item">
               <img src="assets/img/Glider_9.jpg" class="masthead-image" alt="Slide 9">
             </div>
-
+            <div class="carousel-overlay text-white text-center">
+              <h2>Our GOAL is to help you get setup and connected using<br>Condor Soaring Simulator</h2>
+              <p>FLY WITH US on Mondays at 7.30pm AEST, (9.30 UTC)</p>
+            </div>
             <!--REMOVED FOR SPEED AND MEMORY/CACHE USE. Have reduced all 10 slides down from 34MB to 20MB. Still leave 2 out and see how it goes with 8.
             <div class="carousel-item">
               <img src="assets/img/Glider_6.jpg" class="masthead-image" alt="Slide 6">
@@ -205,9 +222,9 @@
     <section class="py-5 bg-white text-black" id="about">
       <div class="container px-4 px-lg-5 padding-top-5">
         <div class="padding-top-5 justify-content-center text-center mt-5">
-          <p><h4>Our <strong>GOAL</strong> is to help you get setup and connected using&nbsp;
-          <a href="https://www.condorsoaring.com/" target="_blank">Condor Soaring Simulator</a></h4></p>
-          <p><strong>FLY WITH US</strong> on Mondays at 7.30pm AEST, (9.30 UTC)</p>
+          <h4>Our <strong>GOAL</strong> is to help you get setup and connected using&nbsp;
+          <a href="https://www.condorsoaring.com/" target="_blank">Condor Soaring Simulator</a></h4>
+          <h4><strong>FLY WITH US</strong> on Mondays at 7.30pm AEST, (9.30 UTC)</h4>
         </div>
       </div>
     </section>
