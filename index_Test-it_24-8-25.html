@@ -53,31 +53,34 @@
 
     .carousel-overlay {
       position: absolute;
-      top: 88%;
+      bottom: 0; /* Anchors to bottom of carousel */
       left: 50%;
-      transform: translate(-50%, -50%);
-      background: rgba(0, 0, 0, 0.0);
-      padding: 2rem 4rem;           /* Increase horizontal padding */
+      transform: translateX(-50%); /* Centers horizontally only */
+      background: #5D4C6180; /* Last 2 numbers, Eg; 80 = 50% opacity (in hex: 128 out of 255)*/
       border-radius: 10px;
       z-index: 10;
-      width: 100%;                  /* Full width of carousel */
+      width: 100%; 
+      max-width: none;   /* Keeps it responsive */
       text-align: center;
       color: white;
-      min-width: 280px;        /* Prevents it from collapsing too small */
-      max-width: 90%;          /* Keeps it responsive */
-      padding: 1rem;           /* Adds breathing room */
-      box-sizing: border-box;  /* Ensures padding doesn't overflow */
+      padding: clamp(0.5rem, 1vw, 1rem) clamp(1rem, 1vw, 2rem); /* Optional: 1st clamp= vert padding, 2nd clamp= Horiz padding */
+      overflow-y: auto; /* Optional: adds scroll if content exceeds max-height */
     }
 
     .carousel-overlay h2 {
-      font-size:  clamp(0.4rem, 3vw, 2rem);  /* First No. = Min font size, vw = Prefered scaling, Last No. = Max font size */
+      font-size:  clamp(0.4rem, 2.2vw, 1.5rem);  /* First No. = Min font size, vw = Prefered scaling, Last No. = Max font size */
       color: #c5c5c5 !important; /* Force override */
-      margin-bottom: 0.5rem;
     }
 
     .carousel-overlay p {
-      font-size:  clamp(0.2rem, 3vw, 1.5rem);  /* First No. = Min font size, vw = Prefered scaling, Last No. = Max font size */
+      font-size:  clamp(0.2rem, 2.2vw, 1.2rem);  /* First No. = Min font size, vw = Prefered scaling, Last No. = Max font size */
       color: #c5c5c5 !important; /* Force override */
+
+    }
+    .carousel-overlay h2,
+    .carousel-overlay p {
+      margin-top: clamp(0rem, 1vh, 0rem);
+      margin-bottom: clamp(0rem, 1vh, 0rem);
     }
 
     .masthead-image {
