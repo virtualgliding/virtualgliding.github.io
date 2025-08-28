@@ -53,37 +53,51 @@
 
     .carousel-overlay {
       position: absolute;
-      bottom: 0; /* Default: flush with bottom on mobile */
+      bottom: 0;
+      /* Default: flush with bottom on mobile */
       left: 50%;
-      transform: translateX(-50%); /* Centers horizontally only */
-      background: #5D4C6180; /* Last 2 numbers, Eg; 80 = 50% opacity (in hex: 128 out of 255)*/
+      transform: translateX(-50%);
+      /* Centers horizontally only */
+      background: #5D4C6180;
+      /* Last 2 numbers, Eg; 80 = 50% opacity (in hex: 128 out of 255)*/
       border-radius: 10px;
       z-index: 10;
-      width: 100%; 
-      max-width: none;   /* Keeps it responsive */
+      width: 100%;
+      max-width: none;
+      /* Keeps it responsive */
       text-align: center;
       color: white;
-      padding: clamp(0.5rem, 1vw, 1rem) clamp(1rem, 1vw, 2rem); /* Optional: 1st clamp= vert padding, 2nd clamp= Horiz padding */
-      overflow-y: auto; /* Enables vertical scrolling */
-      -webkit-overflow-scrolling: touch; /* 👈 Smooth scrolling on iOS */
+      padding: clamp(0.5rem, 1vw, 1rem) clamp(1rem, 1vw, 2rem);
+      /* Optional: 1st clamp= vert padding, 2nd clamp= Horiz padding */
+      overflow-y: auto;
+      /* Enables vertical scrolling */
+      -webkit-overflow-scrolling: touch;
+      /* 👈 Smooth scrolling on iOS */
     }
 
-            /* Float higher on larger screens */
-  @media (min-width: 768px) {
-    .carousel-overlay {
-      bottom: clamp(0px, 5vh, 30px); /* Raised bottom on tablets and desktops */
+    /* Float higher on larger screens */
+    @media (min-width: 768px) {
+      .carousel-overlay {
+        bottom: clamp(0px, 5vh, 30px);
+        /* Raised bottom on tablets and desktops */
       }
     }
+
     .carousel-overlay h2 {
-      font-size:  clamp(0.4rem, 2.2vw, 1.5rem);  /* First No. = Min font size, vw = Prefered scaling, Last No. = Max font size */
-      color: #c5c5c5 !important; /* Force override */
+      font-size: clamp(0.4rem, 2.2vw, 1.5rem);
+      /* First No. = Min font size, vw = Prefered scaling, Last No. = Max font size */
+      color: #c5c5c5 !important;
+      /* Force override */
     }
 
     .carousel-overlay p {
-      font-size:  clamp(0.2rem, 2.2vw, 1.2rem);  /* First No. = Min font size, vw = Prefered scaling, Last No. = Max font size */
-      color: #c5c5c5 !important; /* Force override */
+      font-size: clamp(0.2rem, 2.2vw, 1.2rem);
+      /* First No. = Min font size, vw = Prefered scaling, Last No. = Max font size */
+      color: #c5c5c5 !important;
+      /* Force override */
 
     }
+
     .carousel-overlay h2,
     .carousel-overlay p {
       margin-top: clamp(0rem, 1vh, 0rem);
@@ -494,10 +508,11 @@
                   fluid and faster and takes away the need to have to push a button to look in a other directions.</p>
 
                 <div class="padding-top-5 justify-content-center text-center">
-                  <img src="assets/img/TrackIR.webp" class="img-fluid mb-4" alt="Icon"
-                    style="width: 250px; ">
+                  <img src="assets/img/TrackIR.webp" class="img-fluid mb-4" alt="Icon" style="width: 250px; ">
                 </div>
-                <li style="list-style: none; padding-left: 0;"><a href="https://www.trackir.com/" target="_blank">TrackIR &nbsp;</a> has been around for a long time now and uses an infrared camera and a special clip (both
+                <li style="list-style: none; padding-left: 0;"><a href="https://www.trackir.com/"
+                    target="_blank">TrackIR &nbsp;</a> has been around for a long time now and uses an infrared camera
+                  and a special clip (both
                   provided) that is attached to your headset in order to track your head movement. This setup is very
                   accurate and doesn’t use your own webcam. You need to be able to block sunlight from coming into your
                   virtual environment as it will prevent your camera from working properly.</li>
@@ -505,12 +520,11 @@
                   less accurate.</p>
 
                 <div class="padding-top-5 justify-content-center text-center">
-                  <img src="assets/img/Mega3_image.webp" class="img-fluid mb-4" alt="Icon"
-                    style="width: 250px; ">
+                  <img src="assets/img/Mega3_image.webp" class="img-fluid mb-4" alt="Icon" style="width: 250px; ">
                 </div>
 
                 <p>The latest and most rapidly improving techology is <a href="https://www.meta.com/au/quest/"
-                  target="_blank"> VR goggles&nbsp;</a>. When you weigh up the cost of VR
+                    target="_blank"> VR goggles&nbsp;</a>. When you weigh up the cost of VR
                   goggles versus good quality monitors and head tracking equipment, VR is becoming a great
                   cost-effective solution. Research is key here as there are many pro’s and con’s.</p>
 
@@ -759,12 +773,11 @@
                 dedicated server is for a person to host Condor multiplayer games on a standalone PC but does not
                 necessarily have to join the flight. A good example of how this method would be used is a team of people
                 that organise and host competitions.</p>
-                
+
               <h4>Communication</h4>
-            <div class="padding-top-5 justify-content-center text-center">
-              <img src="assets/img/Communication_image.webp" class="img-fluid mb-4" alt="Icon"
-                style="width: 250px; ">
-            </div>
+              <div class="padding-top-5 justify-content-center text-center">
+                <img src="assets/img/Communication_image.webp" class="img-fluid mb-4" alt="Icon" style="width: 250px; ">
+              </div>
 
               <p>Condor3 Multiplayer has an inbuilt “radio” communication feature that lets you chat with the other
                 pilots in the server. Alternatively, you can use third-party software like TeamSpeak, Discord. Its good
