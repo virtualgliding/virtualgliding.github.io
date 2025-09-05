@@ -72,3 +72,57 @@ footer {
   color: #ffffff;
   font-size: 0.9rem;
 }
+
+    .masthead-container {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+    }
+
+    .masthead-image {
+      width: 100%;
+      margin-top: 1.5rem;
+      height: auto;
+      display: block;
+    }
+
+    .masthead-title {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    .masthead-btn {
+      position: absolute;
+      bottom: 20%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      text-align: center;
+    }
+
+    .restricted-img {
+      max-width: 200px;
+      max-height: 200px;
+      object-fit: contain;
+      /* or cover, if you want to crop */
+    }
+
+    body {
+      margin: 0;
+      padding-top: 0;
+      /* or match navbar height if needed */
+      background-color: #ffffff;
+    }
+
+    @media (max-width: 2300.98px) {
+
+      /* Bootstrap's lg breakpoint */
+      a {
+        color: #2e749d;
+      }
+    }
+  

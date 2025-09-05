@@ -1,1 +1,9 @@
+https://virtualgliding.github.io/Hardware.html
+https://virtualgliding.github.io/How.html
 https://virtualgliding.github.io/index.html
+https://virtualgliding.github.io/Join.html
+https://virtualgliding.github.io/Links.html
+https://virtualgliding.github.io/Multiplayer.html
+https://virtualgliding.github.io/Scenery.html
+https://virtualgliding.github.io/Software.html
+https://virtualgliding.github.io/Training.html
