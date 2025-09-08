@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://virtualgliding.github.io/</loc>
-    <lastmod>2025-08-17</lastmod>
+    <loc>https://virtualgliding.github.io/index.html</loc>
+  </url>
+  <url>
+    <loc>https://virtualgliding.github.io/Hardware.html</loc>
+  </url>
+  <url>
+    <loc>https://virtualgliding.github.io/How.html</loc>
+  </url>
+  <url>
+    <loc>https://virtualgliding.github.io/Join.html</loc>
+  </url>
+  <url>
+    <loc>https://virtualgliding.github.io/Links.html</loc>
+  </url>
+  <url>
+    <loc>https://virtualgliding.github.io/Multiplayer.html</loc>
+  </url>
+  <url>
+    <loc>https://virtualgliding.github.io/Scenery.html</loc>
+  </url>
+  <url>
+    <loc>https://virtualgliding.github.io/Software.html</loc>
+  </url>
+  <url>
+    <loc>https://virtualgliding.github.io/Training.html</loc>
+    <lastmod>2025-09-09</lastmod>
   </url>
 </urlset>
